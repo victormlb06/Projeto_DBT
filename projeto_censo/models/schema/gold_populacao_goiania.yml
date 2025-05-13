@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: gold_populacao_goiania
+    description: |
+      São as populações por grupos em Goiânia.
+    tags: ["staging", "brasil", "populacao"]

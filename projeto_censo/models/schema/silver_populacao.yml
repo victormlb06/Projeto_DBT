@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: silver_populacao
+    description: |
+      São as populações por grupos com transformações.
+    tags: ["staging", "brasil", "populacao"]

@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_municipio
+    description: |
+      Municipios brasileiros e seus respectivos estados
+    tags: ["staging", "brasil", "estados", "municipios"]
+    columns:
+      - name: Município
+        description: Código do município.
+      - name: Nome_Município
+        description: Nome do município.
+      - name: Código Município Completo
+        description: Código IBGE do município completo.
+      - name: UF
+        description: Código do estado.
+      - name: Nome_UF
+        description: Nome do estado.

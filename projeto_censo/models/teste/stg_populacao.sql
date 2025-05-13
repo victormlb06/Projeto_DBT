@@ -1,0 +1,1 @@
+select * from br_ibge_censo
