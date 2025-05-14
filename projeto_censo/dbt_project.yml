@@ -32,5 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   projeto_censo:
     # Config indicated by + and applies to all files under models/example/
-    teste:
+    staging:
+      +materialized: view
+    silver:
+      +materialized: view
+    gold:
       +materialized: view
